@@ -18,9 +18,7 @@ public class Node {
 
     }
 
-    public String getName() {
-        return name;
-    }
+
 
     public List<Edge> getEdges() {
         return edges;
@@ -59,6 +57,10 @@ public class Node {
 
     public void setyLocation(int yLocation) {
         this.yLocation = yLocation;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
