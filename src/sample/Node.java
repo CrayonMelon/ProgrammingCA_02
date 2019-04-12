@@ -18,8 +18,6 @@ public class Node {
 
     }
 
-
-
     public List<Edge> getEdges() {
         return edges;
     }
@@ -44,19 +42,13 @@ public class Node {
     }
 
     public int getxLocation() {
+
         return xLocation;
     }
 
     public int getyLocation() {
+
         return yLocation;
-    }
-
-    public void setxLocation(int xLocation) {
-        this.xLocation = xLocation;
-    }
-
-    public void setyLocation(int yLocation) {
-        this.yLocation = yLocation;
     }
 
     public String getName() {
